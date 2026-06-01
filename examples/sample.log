@@ -1,0 +1,6 @@
+2026-06-01 09:59:12 INFO api boot complete on port 8080
+2026-06-01 10:01:44 WARN cache lookup for user 1842 exceeded 800ms
+2026-06-01 10:02:03 ERROR payment provider returned 502 for order 99231
+2026-06-01 10:02:09 ERROR payment provider returned 503 for order 99232
+2026-06-01 10:05:31 INFO background reconciliation finished
+2026-06-01 10:06:11 CRITICAL database connection pool exhausted

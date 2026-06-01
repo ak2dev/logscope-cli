@@ -125,10 +125,6 @@ $env:PYTHONPATH = "src"
 python -m unittest
 ```
 
-## License
-
-MIT. See [LICENSE](LICENSE).
-
 ## Suggested Commit History
 
 1. `chore: scaffold logscope cli package`

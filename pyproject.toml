@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logscope-cli"
+version = "0.1.0"
+description = "A practical CLI for parsing server logs into JSON or Markdown incident summaries."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Your Name" }]
+license = { text = "MIT" }
+keywords = ["logs", "cli", "observability", "devtools"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: System :: Logging",
+  "Topic :: Utilities"
+]
+
+[project.scripts]
+logscope = "logscope.cli:main"
